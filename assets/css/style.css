@@ -1,0 +1,40 @@
+body
+{
+	margin:0;
+	font-family:Arial;
+}
+
+.bandeau
+{
+	box-shadow: 2px -2px 8px grey;
+	background-color:#404040;
+	text-align:center;
+}
+.bandeau-logo{
+	width:15%;
+	margin:1%;
+}
+.bandeau-menu
+{
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 50%;
+    text-align: center;
+	background-color:#fddf87;
+}
+.bandeau li a{
+	color:black;
+	text-decoration:none;
+}
+.bandeau-menu li{
+	display:inline-block;
+	padding:4%;
+}
+.bandeau-menu li:hover, .bandeau-menu li:focus{
+	background-color:#f5cc53;
+	font-weight:bold;
+}
+.bandeau-menu-active{
+	background-color:#f5cc53;
+	font-weight:bold;
+}
