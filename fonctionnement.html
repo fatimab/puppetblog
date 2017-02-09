@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Fonctionnement</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="bandeau">
+		<img src="assets/img/logo.png" class="bandeau-logo">
+		<div class="bandeau-menu">
+			<ul>
+				<li>
+					<a href="index.html">Présentation</a>
+				</li>
+				<li class="bandeau-menu-active">
+					<a href="fonctionnement.html">Principe de fonctionnement</a>
+				</li>
+				<li>
+					<a href="">..</a>
+				</li>
+				<li>
+					<a href="">..</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="content">
+		<h1>Fonctionnement</h1>
+		<h2>Pré-requis</h2>
+		<p>
+			Disposez de plusieurs serveurs à administrer sans quoi le gain de temps et d'énergie ne sera pas effectif.<br/>
+			Notions en administration système.
+		</p>
+		<h2>Principe</h2>
+		<p>
+		<img src="assets/img/puppetimg.png">
+			Il fonctionne sur un modèle client-serveur.<br/>
+			Le serveur Puppet est appelé le <i>puppetmaster</i>. C'est sur ce serveur que nous définissons la configuration de référence.<br/>
+			Les clients vont entreprendre les actions nécessaires pour correspondre à l'état définit grâce au démon Puppetd.
+			Puppet écrit en ruby, décrit les actions à faire, et non les commandes. C'est le démon ( propre à chaque système d'exploitation) qui va exécuter les actions, c'est pourquoi les clients peuvent aussi bien être Linux, Solaris, Windows etc.
+		</p>
+	</div>
+</body>
+</html>
