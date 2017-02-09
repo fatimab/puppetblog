@@ -16,9 +16,6 @@ body
 }
 .bandeau-menu
 {
-    width: 50%;
-    padding-left: 25%;
-    padding-right: 25%;
     text-align: center;
 	background-color:#fddf87;
 }
@@ -28,7 +25,7 @@ body
 }
 .bandeau-menu li{
 	display:inline-block;
-	padding:4%;
+	padding:2%;
 }
 .bandeau-menu li:hover, .bandeau-menu li:focus{
 	background-color:#f5cc53;
