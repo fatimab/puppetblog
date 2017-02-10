@@ -1,7 +1,0 @@
-Les quelques changements que j'ai fait ce soir :
-
-- Ajout de bootstrap (léger, juste du recentrage et des col-md-10 pour que les textes ne soient pas trop allongés)
-- Ajout de <blockquote> et de <code>
-- Partie installation écrite (manque configuration que je ferai dans la journée)
-- Sources ajoutées
-- Manque la partie fonctionnement (à voir qui la fait, tiens moi au courant par message :) )
