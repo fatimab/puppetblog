@@ -1,61 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-	<title>Accueil</title>
 	<meta charset="UTF-8">
+	<title>Accueil</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<div class="bandeau">
-		<img src="assets/img/logo.png" class="bandeau-logo">
-		<div class="bandeau-menu">
-			<ul>
-				<li class="bandeau-menu-active">
-					<a href="index.html">Présentation</a>
-				</li>
-				<li>
-					<a href="fonctionnement.html">Principe de fonctionnement</a>
-				</li>
-				<li>
-					<a href="">Installation & configuration</a>
-				</li>
-				<li>
-					<a href="">..</a>
-				</li>
-				<li>
-					<a href="">..</a>
-				</li>
-			</ul>
+	<div class="container">
+		<div class="bandeau">
+			<a href="index.html"><img src="assets/img/logo.png" class="bandeau-logo"></a>
+			<div class="bandeau-menu">
+				<ul>
+					<li class="bandeau-menu-active">
+						<a href="index.html">Présentation</a>
+					</li>
+					<li class="bandeau-menu-active">
+						<a href="fonctionnement.html">Principe de fonctionnement</a>
+					</li>
+					<li class="bandeau-menu-active">
+						<a href="installation.html">Installation & configuration</a>
+					</li>
+					<li class="bandeau-menu-active">
+						<a href="sources.html">Sources</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	
-	<div class="content">
-		<h1>Présentation</h1>
-		<h2>Qu'est-ce que Puppet ?</h2>
-		<p>
-			C'est un outil libre Open Source qui permet de gérer et de centraliser la configuration de serveurs au sein d'un référentiel unique.<br/>
-			Il permet ainsi de définir les configurations des logiciels pour un ensemble de machine, et donc d'imposer une configuration dans toute l'organisation.<br/>
-			Il vérifie périodiquement que la configuration des serveurs correspond bien à celle configurée et attendue, ainsi il n'y a plus besoin de procédure de contrôles réguliers.
-		</p>
-		<h2>Compatibilité</h2>
-		<p>
-			Il fonctionne sur la plupart des systèmes Unix et est supporté depuis la version 2.7.X sur Windows.
-		</p>
-		<h2>Les solutions conccurentes</h2>
-		<p>
-		Deux principaux:
-			<ul>
-				<li><a href="https://www.chef.io/chef/">Chef</a></li>
-				<li><a href="https://cfengine.com/">CfEngine</a></li>
-				
-			</ul>
-		</p>
-		<h2>Les points forts de Puppet</h2>
-		<p>
-			<ul>
-				<li>Solution la mieux documentée </li>
-				<li>Nombre important de ressources </li>
-			</ul>
-		</p>
+		
+		<div class="content">
+			<h1>Présentation</h1>
+			<br/>
+			<h2>Qu'est-ce que Puppet ?</h2>
+			<br/>
+			<div class="row">
+				<div class="col-md-10">
+					<p class="blockquote">
+						C'est un outil libre Open Source qui permet de gérer et de centraliser la configuration de serveurs au sein d'un référentiel unique.<br/>
+						Il permet ainsi de définir les configurations des logiciels pour un ensemble de machine, et donc d'imposer une configuration dans toute l'organisation.<br/>
+						Il vérifie périodiquement que la configuration des serveurs correspond bien à celle configurée et attendue, ainsi il n'y a plus besoin de procédure de contrôles réguliers.
+					</p>
+				</div>
+			</div>
+			<h2>Compatibilité</h2>
+			<br/>
+			<div class="row">
+				<div class="col-md-10">
+					<p class="blockquote">
+						Il fonctionne sur la plupart des systèmes Unix et est supporté depuis la version 2.7.X sur Windows.
+					</p>
+				</div>
+			</div>
+			<br/>
+			<h2>Les solutions conccurentes</h2>
+			<br/>
+			<div class="row">
+				<div class="col-md-10">
+					<p class="blockquote">
+					Deux principaux concurrents:
+						<ul>
+							<li><a href="https://www.chef.io/chef/">Chef</a></li>
+							<li><a href="https://cfengine.com/">CfEngine</a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<br/>
+			<h2>Les points forts de Puppet</h2>
+			<div class="row">
+				<div class="col-md-10">
+					<p>
+						<ul class="blockquote">
+							<li>Solution la mieux documentée </li>
+							<li>Nombre important de ressources </li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
