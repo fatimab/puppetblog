@@ -4,9 +4,12 @@ body
 	font-family:Arial;
 }
 
+p
+{
+	text-align:justify;
+}
 .bandeau
 {
-	box-shadow: 2px -2px 8px grey;
 	background-color:#404040;
 	text-align:center;
 }
@@ -34,4 +37,12 @@ body
 .bandeau-menu-active{
 	background-color:#f5cc53;
 	font-weight:bold;
+}
+h1{
+	text-align: center;
+    background-color: #d8d8d8;
+	margin:0;
+}
+ul{
+	margin:0;
 }

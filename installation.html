@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Installation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="bandeau">
+			<a href="index.html"><img src="assets/img/logo.png" class="bandeau-logo"></a>
+			<div class="bandeau-menu">
+				<ul>
+					<li>
+						<a href="index.html">Présentation</a>
+					</li>
+					<li>
+						<a href="fonctionnement.html">Principe de fonctionnement</a>
+					</li>
+					<li class="bandeau-menu-active">
+						<a href="installation.html">Installation & configuration</a>
+					</li>
+					<li>
+						<a href="sources.html">Sources</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<h1>Installation et configuration</h1>
+			<br/>
+			<h2>Installation</h2>
+			<div class="row">
+				<div class="col-md-10">
+					<p class="blockquote">
+						Pour commencer, vous devez vous assurer d'être bien connecté à internet.<br/>
+						Ensuite, il y a 2 méthodes selon votre système d'exploitation :<br/><br/>
+						<strong>Pour un système utilisant APT</strong><br/><br/>
+						Sur le client : <code>apt-get install puppet</code><br/>
+						Sur le serveur : <code>apt-get install puppetmaster</code><br/><br/>
+						<strong>Pour un système utilisant DNF (Yum)</strong><br/><br/>
+						Sur le client : <code>yum install puppet</code><br/>
+						Sur le serveur : <code>yum install puppet-server</code><br/><br/>
+						<strong>Pour démarrer le service</strong><br/><br/>
+						Sur le client : <code>service puppet start</code><br/>
+						Sur le serveur : <code>service puppetmaster start</code><br/><br/>
+					</p>
+				</div>
+			</div>
+			<h2>Configuration</h2>
+			<div class="row">
+				<div class="col-md-10">
+					<p class="blockquote">
+					
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
