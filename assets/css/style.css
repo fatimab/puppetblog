@@ -4,6 +4,11 @@ body
 	font-family:Arial;
 }
 
+p
+{
+	text-align:justify;
+}
+
 .bandeau
 {
 	box-shadow: 2px -2px 8px grey;
@@ -31,7 +36,11 @@ body
 	background-color:#f5cc53;
 	font-weight:bold;
 }
+
+
+/*
 .bandeau-menu-active{
 	background-color:#f5cc53;
 	font-weight:bold;
 }
+*/
